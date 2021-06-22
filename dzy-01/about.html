@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>玩具内容页</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous"><!-- 导入bootstrap v5的CSS 文件去除integrity部分 -->
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=fexc5dRIGSclGyGwvG8Hlco859bw05iE"></script>
+<style>
+html{height:100%} 
+body{height:100%;margin:0px;padding:0px} 
+/*导航栏*/
+#nav{
+	height: 100px;
+	width: 1200px;
+	margin:  0px auto;
+	background-color: #f1dfee;
+}
+ .left img{
+    float: left;
+} 
+#nav h4{
+    float: left;
+	color: #000000;	
+    margin-top: 30px;
+}
+#nav img{
+	float: right;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#nav li{
+    
+    list-style: none;
+	float: right;
+    margin-top: 30px;
+	line-height: 90px;
+}
+#nav li a:hover{
+	color: #55aa00;
+    }
+#nav li a {
+      color: black;
+      margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    }
+/*中部*/
+.map{
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+
+}
+#container{
+height: 500px;
+width: 630px;
+float: left;
+}
+
+/* footer */
+#footer{
+background-color: rgb(212, 211, 211);
+	height: auto;
+	width: 1200px;
+	margin:  0px auto;
+}
+#footer .f1 li{
+  float: left;
+  list-style: none;
+  width: 22%;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#footer .f1 li img{
+  width: 150px;
+  height: 150px;
+}
+#footer .f2{
+  float: left;
+
+}
+#footer .f2 img{
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+#footer h3{
+  clear: both;
+  text-align: center;
+}
+</style>
+</head>
+ 
+<body>
+    <div style="background-color: #f1dfee;height: 130px;">
+        <!--3导航-->
+        <div id="nav">
+            <div class="container">
+                 <div class="left">
+                      <img style="width: 100px; height: 90px; float: left;" src="img1/长城车.png" />
+                      <h4>玩具总动员</h4>
+                    </div>
+                 
+                 <ul class="right">
+                     <li><a href="nr.html"><h3>关于我们 &nbsp;</h3></a></li>
+                     <li><a href="news.html"><h3>玩具新闻 &nbsp;</h3></a></li>
+                    <li><a href="index.html"><h3>首页 &nbsp;</h3></a></li>
+                 </ul>
+            </div><!--container -->
+            <br><br><br>
+            <p style="text-align: center;font-size: 28px;">关于我们</p>
+        </div><!-- nav --> 
+ 
+<!-- 中部 -->
+<br>
+<br>
+<div class="map">
+  <div id="container"></div>
+<div style="height: 400px;width: 550px;float: right;font-size: 18px;border: black 2px;">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;玩具，泛指可用来玩的物品，玩玩具在人类社会中常常被作为一种寓教于乐的方式。
+  玩具也可以是自然物体，即是沙、石、泥、树枝等等的非人工东西，对玩具应作广义理解，它不是只限于街上卖的供人玩的东西，凡是可以玩的、看的、听的和触摸的东西，都可以叫玩具。
+  玩具适合儿童，更适合青年和中老年人。它是打开智慧天窗的工具，让人们机智聪明</p>
+  <div class="logo">
+      <img src="img1/地图.png" alt="" style="width: 65px;height: 65px;">
+      <span>福建福州市闽侯县大学城</span>
+   </div>
+   <div class="logo">
+      <img src="img1/邮 箱.png" alt="" style="width: 65px;height: 65px;">
+      <span>2583762797@qq.com</span>
+   </div> 
+   <div class="logo">
+      <img src="img1/客服.png" alt="" style="width: 65px;height: 65px;">
+      <span>400-123-456</span>
+   </div> 
+</div>
+</div><br><br>
+  
+      <!--尾部-->
+<div style="background-color: rgb(212, 211, 211);height:500px;">
+    <div id="footer"> 
+        <div class="f1">
+          <ul>
+            <li>
+              <div>
+              <img src="img1/地图.png" />
+              <p style="margin-top: 10px;">福建福州市闽侯县大学城</p>
+              </div>
+            </li>
+            <li>
+              <div>
+              <img src="img1/邮 箱.png" />
+              <p style="margin-top: 10px;">2583762797@qq.com</p>
+               </div>
+            </li>
+            <li>
+              <div>
+              <img src="img1/客服.png" />
+              <p style="margin-top: 10px;">400-123-4567</p>
+              </div>
+            </li>
+          </ul>
+        </div><!-- f1 -->
+        <div class="f2">
+          <img src="img1/9.png" alt="">
+          <p style="text-align: center;">扫一扫加入玩具总动员</p>
+      </div><!-- f2 -->
+
+      <div style="width: 200px;margin: 0 auto;">
+        <hr style="margin-top: 50px;width:200px;"><br>
+        <p>&nbsp;&nbsp;版权所有@玩具总动员</p>
+      </div>
+
+    </div><!-- footer -->
+  </div>
+  <script type="text/javascript">
+    var map = new BMapGL.Map("container");
+    // 创建地图实例 
+    var point = new BMapGL.Point(116.404, 39.915);
+    // 创建点坐标 
+    map.centerAndZoom(point, 15);
+    // 初始化地图，设置中心点坐标和地图级别 
+    </script> 
+</body>
+</html>
